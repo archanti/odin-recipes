@@ -12,6 +12,7 @@ h2 {
 
 footer {
     background-color: rgb(146, 143, 214);
+    border-top: 2px solid black;
 }
 
 p,ol,ul {
@@ -26,4 +27,32 @@ p,ol,ul {
 #img {
     float: left;
     margin: o 15px 0 0;
+}
+
+.boxone {
+    height: auto;
+    width: 40%;
+    padding: auto;
+    margin: 2px;
+    border: 2px solid green;
+    border-radius: 20px;
+    -ms-flex-align: stretch;
+    display: inline-block;
+}
+
+.boxtwo {
+    height: auto;
+    width: 55%;
+    padding: auto;
+    border: 2px solid green;
+    border-radius: 20px;
+    -ms-flex-align: stretch;
+    display: inline-block;
+}
+
+img:hover{
+    transform: scale(1.05);
+    transition: all ease;
+    border-radius: 20px;
+    box-shadow: 2px green;
 }

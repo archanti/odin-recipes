@@ -41,13 +41,15 @@ p,ol,ul {
 }
 
 .boxtwo {
-    height: auto;
+    height: fit-content;
     width: 55%;
     padding: auto;
     border: 2px solid green;
     border-radius: 20px;
     -ms-flex-align: stretch;
     display: inline-block;
+    padding: 10px;
+    position: absolute;
 }
 
 img:hover{
@@ -55,4 +57,9 @@ img:hover{
     transition: all ease;
     border-radius: 20px;
     box-shadow: 2px green;
+}
+
+.imgbox {
+    display: inline-block;
+    width: 32%;
 }
